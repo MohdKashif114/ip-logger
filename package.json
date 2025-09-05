@@ -1,17 +1,11 @@
 {
-  "name": "ip-log-demo",
+  "name": "ip-logger",
   "version": "1.0.0",
   "type": "module",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "scripts": { "start": "node server.js" },
   "dependencies": {
-    "express": "^4.21.2",
-    "pg": "^8.16.3"
-  },
-  "main": "server.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "node-fetch": "^3.3.2"
+  }
 }
